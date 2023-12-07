@@ -4,4 +4,3 @@ python-dotenv==1.0.0
 gunicorn==21.2.0
 celery==5.3.4
 customgpt_client
-redis
