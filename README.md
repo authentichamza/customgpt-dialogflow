@@ -12,11 +12,11 @@ Commence by setting up a webhook using the provided `app.py` script. The webhook
 
 ```json
 {
-    'fulfillment_response': {
-        'messages': [
+    "fulfillment_response": {
+        "messages": [
             {
-                'text': {
-                    'text': [openai_response]
+                "text": {
+                    "text": [openai_response]
                 }
             }
         ]
