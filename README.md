@@ -16,7 +16,7 @@ Commence by setting up a webhook using the provided `app.py` script. The webhook
         "messages": [
             {
                 "text": {
-                    "text": [openai_response]
+                    "text": ["your_customgpt_response"]
                 }
             }
         ]
