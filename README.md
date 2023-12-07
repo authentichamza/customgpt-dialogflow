@@ -25,16 +25,20 @@ Commence by setting up a webhook using the provided `app.py` script. The webhook
 ```
 
 ### 2. DialogFlow CX Project Setup
-
+![Webhook_Creation](https://github.com/authentichamza/customgpt-dialogflow/assets/43203240/1307e7e6-f6f1-41ae-9ea7-dd430f340095)
 - Create a DialogFlow CX project and navigate to the left side panel.
 - Go to `Manage` > `Webhooks` and create a new webhook.
 - Add your hosted endpoint to the `Webhook URL`.
 - Set the `Webhook Timeout` to 30, and in additional key values, add `Authorization` and `Project-ID` (the ID of the chatbot to chat with). Save the configuration.
+![Screenshot from 2023-12-07 04-53-59](https://github.com/authentichamza/customgpt-dialogflow/assets/43203240/53a38fb6-2020-4a3e-a162-e5cbac098403)
 
 ### 3. DialogFlow CX Intent Configuration
+- In the DialogFlow CX side panel, go to `Build`
+- Click on `Start Page`, and then on `Welcome Intent`.
+- ![Screenshot from 2023-12-07 04-42-34](https://github.com/authentichamza/customgpt-dialogflow/assets/43203240/3559f086-5ee6-4b48-9aeb-a2b5b0a8192b)
 
-- In the DialogFlow CX side panel, go to `Build`, click on `Start Page`, and then on `Welcome Intent`.
 - In the fulfillment section, remove all existing agent responses to ensure the call to CustomGPT triggers consistently.
+- ![Screenshot from 2023-12-07 05-26-54](https://github.com/authentichamza/customgpt-dialogflow/assets/43203240/d0c39109-0496-4bd0-9949-a092e8c9fdf9)
 - Enable the webhook and select the created webhook from the dropdown.
 - Save the configuration.
 
